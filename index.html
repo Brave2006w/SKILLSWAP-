@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SkillSwap Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <header>
             <img src="images/5.png" alt="">
+            <button onclick="startMusic()">PLAY MUSIC</button>
+
+  <audio id="bg-music">
+    <source src="ce6f33ec-9203-4967-aeaf-6c8e5f2934a6.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    function startMusic() {
+      const music = document.getElementById("bg-music");
+      music.play();
+    }
+  </script>
             <img src="images/6.png" alt="">
         </header>
         <section class="banner">
             <div class="content">
                 <h1 class="left">SKILLSWAP</h1>
                 <div class="right">
-                    <h2>A MICRO SKILL PLATFORM</h2>
+                    <h2>TARIQ</h2>
                     <p>Web Design</p>
                     <p>Don't forget to give some comments
                         <br>learn new skill Today</p>
@@ -52,7 +64,7 @@
                 The platform makes it easy to connect. Just create a profile, list your skills, and browse what others are offering. You can chat, schedule sessions, and build valuable connections with people who want to learn what you know—or teach you what they do best. Skill Hub can make you upgrade your living  standard you can reach me with our contacts below. <br>
                 Some of the skills we offer ;1, Web Design 2,Graphic Design 3,Trading skils 4,Cooking 
 
-             Most of them are done online.Links are shared on our What'sApp Groups.
+             Most of them are done online.Links are shared on our What'sApp Groups.0705555999 RICK WAWERU
             </div>
 
             <div class="autoShow">
@@ -88,6 +100,11 @@
                     <img src="images/8.png" alt="">
                 </figure>
             </div>
+            <style>
+    audio {
+      display: none;
+    }
+  </style>
         </div>
     </footer>
 </body>
